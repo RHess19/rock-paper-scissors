@@ -1,0 +1,38 @@
+.header-container
+{
+    text-align: center;
+}
+
+.game-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin: 20px;
+}
+
+.results-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.gameWinnerText
+{
+    text-align: center;
+}
